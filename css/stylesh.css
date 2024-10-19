@@ -1,0 +1,31 @@
+body {
+    background-color: #dbebfb; /* Color de fondo */
+}
+
+.navbar {
+    background-color: #174c9c; /* Azul suave */
+}
+
+.navbar-brand, .nav-link {
+    color: #FFFFFF !important; /* Blanco para texto */
+}
+
+.card {
+    background-color: #2CBCF4; /* Color del contenedor de las tarjetas */
+    color: #FFFFFF; /* Color del texto en las tarjetas */
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de hover */
+}
+
+.btn-danger {
+    background-color: #D9534F; /* Color para botón de cerrar sesión */
+    border-color: #D9534F;
+}
+
+.btn-danger:hover {
+    background-color: #C9302C; /* Hover para botón de cerrar sesión */
+}
